@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191c1d;
+}
+#sidebar {
+    height: 90vh;
+    width: 20vw;
+    background-color:#191c1d;
+      display: block;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: 10vh;
+    float: left;
+    color: white;
+    text-align: center;
+    position: fixed;
+  }
+  .editbut{
+    text-decoration: none;
+    color: white;
+    }
+    .editbut:hover{
+    color: grey;
+    }
+  .sidebar-box {
+    margin: 15px;
+    background-color: #21353a;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+.sidebar-box:hover {
+    background-color:  #334a50;
+}
+#nav {
+	display: flex;
+	color: white;
+	align-items: center;
+    text-align: center;
+    background-color: #191c1d;
+    position: fixed;
+    margin-top:0px;
+}
+.text {
+  color: white;
+  font-size: 24px;
+  display:flex;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  margin-left: 20vw;
+  padding-top: 10vh;
+}
+.tt {
+  display: flex;
+  height: 34vh;
+  width:74vw;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh;
+  background-color: #203a40;
+}
+.tt:hover {
+  background-color: #305962;
+}
+img {
+  height: 30vh;
+  width: 18vw;
+  margin-right: 2vw;
+}
+

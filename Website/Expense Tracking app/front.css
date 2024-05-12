@@ -1,0 +1,7 @@
+.editbut{
+    text-decoration: none;
+    color: white;
+    }
+    .editbut:hover{
+    color: grey;
+    }

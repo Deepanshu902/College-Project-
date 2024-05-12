@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191c1d;
+}
+#sidebar {
+    height: 90vh;
+    width: 20vw;
+    background-color:#191c1d;
+      display: block;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    float: left;
+    color: white;
+    text-align: center;
+  }
+  .sidebar-box {
+    margin: 15px;
+    background-color: #21353a;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .editbut{
+    text-decoration: none;
+    color: white;
+    }
+    .editbut:hover{
+    color: grey;
+    }
+.sidebar-box:hover {
+    background-color:  #334a50;
+}
+#nav {
+	display: flex;
+	color: white;
+	align-items: center;
+    text-align: center;
+    background-color: #191c1d;
+}
+.text {
+    color: white;
+    font-size: 24px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.tt {
+    display: flex;
+    height: 10vh;
+    width: 72vw;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+    background-color: #203a40;
+}
+.tt:hover {
+    background-color: #305962;
+}
